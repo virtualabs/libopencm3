@@ -44,6 +44,8 @@
 #       include <libopencm3/stm32/g0/exti.h>
 #elif defined(STM32H7)
 #       include <libopencm3/stm32/h7/exti.h>
+#elif defined(STM32WL)
+#       include <libopencm3/stm32/wl/exti.h>
 #else
 #       error "stm32 family not defined."
 #endif

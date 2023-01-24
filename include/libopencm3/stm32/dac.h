@@ -42,6 +42,8 @@
 #	include <libopencm3/stm32/g4/dac.h>
 #elif defined(STM32H7)
 #       include <libopencm3/stm32/h7/dac.h>
+#elif defined(STM32WL)
+#       include <libopencm3/stm32/wl/dac.h>
 #else
 #       error "stm32 family not defined."
 #endif
